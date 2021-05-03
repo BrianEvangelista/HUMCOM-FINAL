@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+    <title>Magsaysay National High School</title>
+    <head>
+    <meta content="text/html; charset=utf-8" />
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    </head>
+<body>
+    <div class="header">
+        <div class="innerheader">
+            <img class="logo" src="UsedImage/MNHSLOGO.jpg" alt="image">
+       
+            <p class="par1">Magsaysay National High School</p>
+    
+    <div class="EnrollmentForm">
+    <h3 class="studprofile"><strong><center>Student Profile</center></strong></h3>
+        <hr style="color:gray;">
+
+    <form class="formp2">
+        <label for="snumber">Student Number&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:</label>
+        <input type="number" id="snumber" name="snumber" pattern="[1-9]{12}" minlenth="5" maxlength="12" title="Input 5-12 numbers only "><br><br>
+        <label for="sname">Student Name&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:</label>
+        <input type="text" id="sname" name="sname" pattern="[A-Za-z]" title="Input Names">                            
+           <br></br>
+        <label for="courprog">Course/Program&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:</label>
+        <input list="Courses" name="Courses" size="50">
+                <datalist id="Courses">
+                <option value="Information Communication and Technology"></option>
+                <option value="Agriculture"></option>
+                <option value="Cookery"></option>
+                <option value="Electrical Technology"></option>
+                </datalist>
+           <br><br>
+        <label for="mnumber">Mobile Number&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:</label>
+        <input type="number" id="mnumber" name="mnumber" pattern="[1-9]" title="Input Phone Number Only "><label for="eMail">&nbsp;Email:</label>
+        <input type="email" id="eMail" name="eMail" title="Type your Email">
+            <br></br>
+        <label for="rArea" id="rArea" name="rArea" title="Type your Adress">Residential Area&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:</label>
+        <textarea name="rArea" rows="3" cols="21" ></textarea>
+        <label for="paddress" id="paddress" name="paddress" title="Type your Address">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(Permanent) Address&nbsp;&nbsp;&nbsp;&nbsp;:</label>
+        <textarea name="paddress" rows="3" cols="22" ></textarea>
+            <br><br>
+        <label for="rregion" >(Permanent) Region&nbsp;:</label>
+        <input list="Region" >
+                <datalist id="Region">
+                <option value="Region 1"></option>
+                <option value="Region 2"></option>
+                <option value="Region 3"></option>
+                <option value="Region 4-A"></option>
+                <option value="Region 4-B"></option>
+                <option value="Region 5"></option>
+                <option value="Region CAR"></option>
+                <option value="Region NCR"></option>
+                <option value="Region 6"></option>
+                <option value="Region 7"></option>
+                <option value="Region 8"></option>
+                <option value="Region 9"></option>
+                <option value="Region 10"></option>
+                <option value="Region 11"></option>
+                <option value="Region 12"></option>
+                <option value="Region 13"></option>
+                <option value="BARMM"></option>
+                </datalist>
+                <br></br>
+        <label for="pprovince">(Permanent)Province:</label>
+        <input type="text" id="pprovince" name="pprovince">
+                <br></br>
+        <label for="pprovince" >(Permanent)<br></label>
+        Municipality&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;<input type="text" name="pprovince" id="pprovince">
+                <br></br>
+        <label for="Pteln">Permanen Tel. Num.&nbsp;:</label>
+        <input type="number" id="Pteln" name="Pteln">
+                 <br></br>
+        <label for="dob">Date of Birth&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:</label> 
+        <input type="text" id="dob" name="dob" size="6">    <label for="pob">&nbsp;&nbsp;&nbsp;&nbsp;Place of Birth&nbsp;&nbsp;:</label>
+        <input type="text" id="pob" name="pob">
+                <br></br>
+        <label name="gender">Gender&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:</label>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label>
+              
+        <label for="rreeligion" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Religion&nbsp;:</label>
+        <input list="Religion" >
+                <datalist id="Religion">
+                <option value="Roman Catholic"></option>
+                <option value="Islam"></option>
+                <option value="Born Again"></option>
+                <option value="Evangelicals"></option>
+                <option value="Iglesia Ni Cristo"></option>
+                <option value="Others"></option>
+                </datalist>
+                <br></br>
+        <label name="Nation">Nationality&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:</label>
+        <input type="text" id="Nation" name="Nation">   <label name="cstatus">Civil Status&nbsp;:<label>
+            <input type="list">
+                <datalist id="list">
+                    <option value="Single"></option>
+                    <option value="Married"></option>
+                </datalist>
+        </label>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <button>SUBMIT</button>
+        <hr style="width:1500px height:20px"></hr>
+    </div>
+    </form>
+</body>
+</html>

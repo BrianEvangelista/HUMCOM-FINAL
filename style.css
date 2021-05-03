@@ -1,0 +1,469 @@
+/*index*/
+body
+{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url("UsedImage/bgimages.jpg");
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.header
+{
+    width: 100%;
+    height: 110px;
+    float: left;
+    border: 5px double grey;
+    box-shadow:1px 5px 10px 5px rgb(99, 99, 158);
+    background-image:url(UsedImage/heastart.jpg);
+}
+
+.logo
+{
+margin-top:-8px;
+width: 120px; 
+margin-left:40px;
+height:80px;
+border: 9px solid Grey;
+border-radius: 40%;
+float:left;
+}
+
+hr
+{
+padding:0px;
+background-color:rgb(88, 88, 165);
+color:#A9A9A9;
+box-shadow:1px 2px 3px 5px rgb(67, 58, 129);
+}
+.par1
+{
+
+    font-family:Verdana;
+    color:#1d26a1;
+    font-size:60px;
+    text-shadow: 4px 3px 3px rgb(105, 102, 100), 3px 2px 1px rgb(36, 28, 156);
+    margin-top:15px;
+    margin-left:210px;
+    text-decoration:underline;
+    padding-left: 00px;
+    text-align: left;
+}
+
+.midright
+{
+    border: 5px double rgb(151, 146, 146);
+    border-radius: 10px;
+    background-color: #2f4353;
+    background-image: linear-gradient(140deg,grey 10%,white 10%, #2f4353 0%, #d2ccc4 74%);
+    padding: 5px;
+    box-shadow:5px 20px 10px 5px rgb(99, 99, 158);
+    margin-left: 50px;
+    margin-right:600px;
+   
+}
+
+.about
+{
+    font-family:"Lucida Calligraphy";
+    color:rgb(26, 26, 139);
+    text-align:center;
+    font-size:40px;
+    text-shadow:2px 3px 2px rgb(51, 39, 39);
+}
+
+.schoolHistory
+{
+    font-size:30px;
+    padding:-2px;
+    font-family:'Times New Roman', Times, serif;
+    color:rgb(26, 26, 139);
+    text-shadow:4px 1px 2px rgb(51, 39, 39);
+}
+.midleft
+{
+    border: 5px double rgb(151, 146, 146);
+    background-color: #2f4353;
+    background-image: linear-gradient(315deg,#2f4353 50%, #2f4353 0%, #d2ccc4 74%);
+    margin-left:785px;
+    margin-top:-530px;
+    box-shadow:1px 10px 15px 5px rgb(99, 99, 158);
+    margin-right:900px;
+    border-radius: 10px;
+    float:left;
+    position:absolute;
+}
+
+.par2
+{
+    color:#1d26a1;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration:underline;
+    text-shadow:1px 1px 0.5px rgb(77, 72, 72);
+    letter-spacing:0.2em;
+}
+
+.schoolimages
+{
+    width:300px;
+    height:200px;
+    margin-right:5px;
+    margin-left:5px;
+    box-shadow:2px 5px 5px 1px rgb(99, 99, 158);
+    float:right;
+    animation: slide 10s infinite;
+    background:url(UsedImage/School1.jpg);
+    background-size:cover;
+}
+
+@keyframes slide{
+    25%{
+        background: url(UsedImage/School1.jpg);
+        background-size: cover;
+    }
+    50%{
+        background:url(UsedImage/School2.jpg);
+        background-size: cover;
+    }   
+    75%{
+        background:url(UsedImage/School3.jpg);
+        background-size: cover;
+    }
+}
+
+.long
+{
+    width:300px;
+    height:1px;
+    position:relative; 
+}
+
+.Links
+{
+    background-color:grey;
+    padding:10px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size:20px;
+    color:blue;
+    text-shadow:2px 3px 2px rgb(39, 37, 37);
+    text-align:center;
+    border:2px groove rgb(58, 58, 155);
+}
+
+a:visited
+{
+    color:rgb(2, 2, 248);
+}
+
+a:hover
+{
+    color:rgb(35, 10, 93);
+}
+
+a:active
+{
+    color:blue;
+}
+
+.searchBar
+{
+    padding:0px;
+    margin-left:850px;
+    margin-right:200px;
+    margin-top:-600px;
+    box-shadow:1px 10px 10px 5px rgb(99, 99, 158);
+    border: 5px double rgb(151, 146, 146);
+    background-color:	#797171;
+}
+
+input[type="text"]
+{
+    padding:12px;
+    padding-right:60px;
+    border-color:rgb(58, 58, 155);
+    
+}
+
+.searchess
+{
+    width:30px;
+    margin-top:10px;
+    margin-left:-40px;
+    height:30px;
+    position:absolute;
+}
+
+
+/*RESPOSIVE DESIGN FOR INDEX START HERE*/
+@media screen and (max-width:768px) {
+    .par1{
+        font-size:32px;
+        padding-top:20px;
+        padding-right:20px;
+    }
+
+    .midright{
+        width:100%;
+        margin-left:-5px;
+        margin-top:50px;
+    }
+
+    .midleft{
+        bottom:-680px;
+        left:-500px;
+    }
+
+    .searches{
+        bottom:00px;
+    }
+    .searchBar{
+        bottom:-680px;
+        left:-500px;
+    }
+}
+@media screen and (min-width: 1024px) {
+    .header{
+    width: 100%;
+    height: 110px;
+    float: left;
+    border: 5px double grey;
+    box-shadow:1px 5px 10px 5px rgb(99, 99, 158);
+    background-image:url(UsedImage/heastart.jpg);
+    }
+    .par1{
+        font-size:45px;
+    }
+    .midright{
+        margin-top:80px;
+    }
+    .schoolimages{
+        margin-left:20px;
+        padding-left:30px;
+    }
+    .searchBar{
+    padding:0px;
+    margin-left:510px;
+    margin-top:-1000px;
+    box-shadow:1px 10px 10px 5px rgb(99, 99, 158);
+    border: 5px double rgb(151, 146, 146);
+    background-color:	#797171;
+    }
+    .midleft{
+    border: 5px double rgb(151, 146, 146);
+    background-color: #2f4353;
+    background-image: linear-gradient(315deg,#2f4353 50%, #2f4353 0%, #d2ccc4 74%);
+    margin-left:443px;
+    margin-top:-930px;
+    box-shadow:1px 10px 15px 5px rgb(99, 99, 158);
+    margin-right:900px;
+    border-radius: 10px;
+    float:left;
+    position:absolute;
+    }
+}
+@media screen and (min-width: 1366px) {
+    .searchBar{
+        padding:0px;
+        margin-left:850px;
+        margin-top:-600px;
+        box-shadow:1px 10px 10px 5px rgb(99, 99, 158);
+        border: 5px double rgb(151, 146, 146);
+        background-color:	#797171;
+        }
+        .midleft{
+        border: 5px double rgb(151, 146, 146);
+        background-color: #2f4353;
+        background-image: linear-gradient(315deg,#2f4353 50%, #2f4353 0%, #d2ccc4 74%);
+        margin-left:785px;
+        margin-top:-530px;
+        box-shadow:1px 10px 15px 5px rgb(99, 99, 158);
+        margin-right:900px;
+        border-radius: 10px;
+        float:left;
+        position:absolute;
+        }
+        .par1{
+            font-size:65px;
+        }
+}
+/*ENROLLMENTFORM AND EVERYTHING CSS ---- PAGE 2*/
+
+.EnrollmentForm{
+
+box-shadow:5px 10px 5px 5px inset rgb(105, 95, 95);
+background-color: #2f4353;
+background-image: linear-gradient(315deg,#2f4353 50%, #2f4353 0%, #d2ccc4 74%);
+margin-left:20px;
+margin-right:25px;
+
+}
+
+.formp2{
+    padding-left:10px;
+    
+}
+
+.studprofile{
+    text-shadow: 1px 3px 3px rgb(211, 205, 205);
+}
+
+/*FACULTY PAGE TEACHERS ---- PAGE 3*/
+
+.teachers{
+    border:10px groove rgb(90, 111, 230);
+}
+
+.frame{
+    background-color: #2f4353;
+    background-image: linear-gradient(315deg,#2f4353 50%, #2f4353 0%, #d2ccc4 74%);
+    border-bottom-right-radius: 20%;
+    margin:5px;
+    border:2px inset rgb(43, 43, 170);
+    box-shadow: 2px 2px rgb(9, 64, 97);
+}
+
+.teacherprofile{
+    height:150px;
+    width:200px;
+    box-shadow: 2px 2px 2px 2px rgb(73, 112, 184);
+    border-radius: 50%;
+    position:relative;
+}
+
+.name{
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    float:right;
+    text-shadow: 3px 3px 4px#adacac;
+    text-decoration: underline;
+    margin-right:600px;
+}
+
+.teacher{
+ position:absolute;
+ left:540px;
+ margin-top:-90px;
+ font-size: 30px;
+}
+
+/*CONTACt PAGES CSS*/
+.CONTACT{
+    background-color: #2f4353;
+    background-image: linear-gradient(315deg,#2f4353 50%, #2f4353 0%, #d2ccc4 74%);
+    border:3px outset rgb(126, 100, 100);
+    margin-top:150px;
+    margin-left:20%;
+    width:800px;
+    position:absolute;
+}
+
+.contactinfo{
+    font-size:30px;
+    text-align: center;
+    text-shadow:2px 2px 2px rgb(54, 22, 22);
+    color:rgb(28, 28, 77);
+}
+
+
+.innercontact{
+    background-color: #2f4353;
+    background-image: linear-gradient(315deg,#2f4353 50%, #2f4353 0%, #d2ccc4 74%);
+    border:3px outset rgb(126, 100, 100);
+    position:absolute;
+    margin-top:5px;
+    height:565px;
+    width:800px;
+    margin-left:-3px;
+}
+
+[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #505851;
+  }
+  
+  .container {
+    border-radius: 5px;
+    background-color: #2f4353;
+    background-image: linear-gradient(315deg,#2f4353 50%, #2f4353 0%, #d2ccc4 74%);
+    padding: 20px;
+  }
+
+
+/*ABOUT PAGE CSS*/
+
+.AboutBox{
+    position:relative;
+    margin-top:50px;
+    margin-left:200px;
+    margin-right:200px;
+    border:1px red blue;
+    
+}
+
+.AboutBoxmain{
+    animation: slidess 10s infinite;
+    background-color: #2f4353;
+    background-image: linear-gradient(315deg,#d2ccc4 74% , #2f4353 0%,#4b555e 50%);
+}
+@keyframes slidess{
+    25%{
+        background-color: #2f4353;
+        background-image: linear-gradient(315deg,#d2ccc4 74% , #2f4353 0%,#4b555e 50%);
+    }
+    50%{
+        background-color: #2f4353;
+        background-image: linear-gradient(315deg,#d2ccc4 74%, #2f4353 0%, #2f4353 50%);
+    }
+}
+
+.abouthead{
+    font-family:Verdana;
+    font-size:50px;
+    color:rgb(26, 26, 104);
+    text-align:center;
+    text-shadow:4px 2px 3px rgb(39, 30, 30);
+    border:5px outset blue;
+}
+
+.abouthr{
+    margin-top:-40px;
+    height:5px;
+    background-color:grey;
+   
+}
+
+.aboutinfo{
+    font-size: larger;
+    color:rgb(27, 27, 116);
+    text-shadow:1px 1px 1px rgb(10, 9, 9);
+    border:3px inset blue;
+}
+
+.AboutBoxmain{
+    border:3px inset rgb(67, 67, 146);
+    margin:30px;
+    background-color: #2f4353;
+    background-image: linear-gradient(315deg,#2f4353 50%, #2f4353 0%, #d2ccc4 74%);
+    border-radius: 30% ;
+    border-bottom-right-radius: 10%;
+    border-top-left-radius: 10%;
+}
